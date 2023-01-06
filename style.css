@@ -333,7 +333,6 @@ body {
 section.about {
   background-color: white;
 }
-
 .row {
   width: 80%;
   margin: 10rem auto;
@@ -537,4 +536,24 @@ input {
   z-index: 1000;
   font-weight: 800;
   color: aliceblue;
+}
+
+@media only screen and (max-width: 950px) {
+  section.about {
+    padding: 0;
+    height: 50rem;
+  }
+  .about img {
+    width: auto;
+    height: 80vw;
+  }
+  .about-box {
+    height: 30rem;
+  }
+  .text {
+    font-size: 8vw;
+  }
+  .a-4 {
+    left: 60%;
+  }
 }
