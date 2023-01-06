@@ -578,4 +578,15 @@ input {
     filter: none;
     z-index: 1;
   }
+  .heading-secondary-form {
+    font-size: 2rem;
+    /* font-weight: 400; */
+    /* color: rgb(220, 216, 216); */
+  }
+  .formgroup {
+    font-size: 1rem;
+  }
+  .form__group {
+    font-size: 0.8rem;
+  }
 }
