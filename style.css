@@ -570,4 +570,7 @@ input {
     left: -30%;
     top: -10%;
   }
+  .section-book .row-1 {
+    width: 95%;
+  }
 }
