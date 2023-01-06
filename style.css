@@ -558,7 +558,7 @@ input {
     left: 60%;
   }
   .nav-bar {
-    height: 35rem;
+    height: 30rem;
   }
   .section-hero {
     height: 110vh;
@@ -571,6 +571,11 @@ input {
     top: -10%;
   }
   .section-book .row-1 {
-    width: 95%;
+    width: 90%;
+  }
+  .gallery__item:hover {
+    transform: scale(1.8);
+    filter: none;
+    z-index: 1;
   }
 }
