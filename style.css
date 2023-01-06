@@ -180,7 +180,7 @@ body {
       rgba(0, 0, 0, 0.159),
       rgba(0, 0, 0, 0.567)
     ),
-    url(../img/guy-hero.jpg);
+    url(./guy-hero.jpg);
   background-size: cover;
   overflow: hidden;
   background-position: top;
