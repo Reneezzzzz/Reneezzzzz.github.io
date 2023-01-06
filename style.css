@@ -549,11 +549,25 @@ input {
   }
   .about-box {
     height: 30rem;
+    /* padding-top: 10rem; */
   }
   .text {
     font-size: 8vw;
   }
   .a-4 {
     left: 60%;
+  }
+  .nav-bar {
+    height: 35rem;
+  }
+  .section-hero {
+    height: 110vh;
+  }
+  .nav-right {
+    width: 80%;
+  }
+  .a-7 {
+    left: -30%;
+    top: -10%;
   }
 }
