@@ -492,10 +492,11 @@ section.about {
 }
 .form__group label {
   display: block;
+  /* width: 60%; */
 }
 
 .heading-secondary-form {
-  font-size: 4rem;
+  font-size: 4vw;
   position: absolute;
   top: 12%;
   left: 45.7%;
@@ -509,15 +510,20 @@ section.about {
 }
 
 #email {
-  padding: 1rem 10rem;
+  /* padding: 1rem 8vw; */
+  height: 3rem;
+  width: 90%;
 }
 
 .field-element {
-  padding: 3rem 10.7rem;
+  /* padding: 3rem 9vw; */
+  height: 9rem;
+  width: 90%;
 }
 
 #name {
   padding: 1rem 0;
+  width: 95%;
 }
 
 input {
