@@ -579,16 +579,18 @@ input {
     z-index: 1;
   }
   .heading-secondary-form {
-    font-size: 2rem;
+    font-size: 2.4rem;
     /* font-weight: 400; */
     /* color: rgb(220, 216, 216); */
   }
   .formgroup {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-right: 0;
+    color: #000;
   }
   .form__group {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    color: black;
   }
   .form__input {
     /* width: 80%; */
