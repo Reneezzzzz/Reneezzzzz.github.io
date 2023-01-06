@@ -505,12 +505,12 @@ section.about {
   margin-top: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-right: 3.5rem;
+  /* padding-right: 3.5rem; */
 }
 
 #email {
-  /* padding: 1rem 8vw; */
-  height: 3rem;
+  padding: 1rem 0;
+  /* height: 3rem; */
   width: 90%;
 }
 
@@ -522,7 +522,7 @@ section.about {
 
 #name {
   padding: 1rem 0;
-  width: 95%;
+  width: 80%;
 }
 
 input {
@@ -585,8 +585,12 @@ input {
   }
   .formgroup {
     font-size: 1rem;
+    padding-right: 0;
   }
   .form__group {
-    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+  .form__input {
+    /* width: 80%; */
   }
 }
