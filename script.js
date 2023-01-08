@@ -15,3 +15,4 @@ window.addEventListener("scroll", function () {
   if (window.scrollY > initalCoords.top - 100) nav.classList.add("sticky");
   else nav.classList.remove("sticky");
 });
+AOS.init();
