@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="stylesheet" href="./style.css" />
     <!-- <link rel="stylesheet" href="general.css" /> -->
     <script defer src="./script.js"></script>
@@ -19,19 +23,34 @@
     <main>
       <section class="section-hero">
         <div class="nav-bar">
-          <a href="#" class="logo"
+          <!-- <a href="#" class="logo"
             ><ion-icon name="aperture-outline"></ion-icon
-          ></a>
+          ></a> -->
           <ul class="nav-right heyy">
-            <li><a class="nav-link-scroll" href="#about">about</a></li>
-            <li>
-              <a class="nav-link-scroll" href="#gallery" class="portfolio"
-                >gallery</a
+            <li><a class="nav-link-scroll" href="#about">About</a></li>
+            <li id="flex">
+              <a
+                class="nav-link-scroll dropbtn"
+                href="#gallery1"
+                class="portfolio"
+                >Gallery</a
               >
+              <div class="dropdown">
+                <a id="drop"
+                  ><span class="material-symbols-outlined">
+                    arrow_drop_down
+                  </span>
+                </a>
+                <div class="dropdown-content">
+                  <a href="#gallery1">page 1</a>
+                  <a href="#gallery2">page 2</a>
+                  <a href="#gallery3">page 3</a>
+                </div>
+              </div>
             </li>
             <li>
               <a class="nav-link-scroll" href="#book" class="contact"
-                >contact</a
+                >Contact</a
               >
             </li>
             <li>
@@ -123,7 +142,7 @@
           <div class="col-1-of-2">col 1 of 2</div>
         </div> -->
       </section>
-      <section class="gallery" id="gallery">
+      <section class="gallery" id="gallery1">
         <figure class="gallery__item gallery__item--1">
           <img
             src="https://scontent.fmel7-1.fna.fbcdn.net/v/t1.6435-9/39385509_145525163032132_1320845564715204608_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=rxehU8HXXCcAX8GkUit&_nc_ht=scontent.fmel7-1.fna&oh=00_AfA_mghiug97U7ZshonsdFPRAUwaypEgNc7HU8qpmPVfhA&oe=63F097F2"
@@ -182,7 +201,7 @@
           />
         </figure>
       </section>
-      <section class="gallery">
+      <section class="gallery" id="gallery2">
         <figure class="gallery__item gallery__item--0">
           <img
             src="https://scontent.fmel7-1.fna.fbcdn.net/v/t1.6435-9/88122891_556964915221486_1031785641400074240_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=gsKIHHca8r0AX-FC_a_&tn=TG8f8afyHxE2Z6Fq&_nc_ht=scontent.fmel7-1.fna&oh=00_AfBgNL1z0uWkRjU3WSDNmhpdf1-m2N6K5kpjLsS4St8CBw&oe=63F085F7"
@@ -239,7 +258,7 @@
           />
         </figure>
       </section>
-      <section class="gallery">
+      <section class="gallery" id="gallery3">
         <figure class="gallery__item gallery__item--1a">
           <img
             src="https://scontent.fmel7-1.fna.fbcdn.net/v/t1.6435-9/39385509_145525163032132_1320845564715204608_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=rxehU8HXXCcAX8GkUit&_nc_ht=scontent.fmel7-1.fna&oh=00_AfA_mghiug97U7ZshonsdFPRAUwaypEgNc7HU8qpmPVfhA&oe=63F097F2"

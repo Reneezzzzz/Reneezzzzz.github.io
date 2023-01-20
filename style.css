@@ -221,7 +221,9 @@ body {
   color: #ddd;
   font-family: "Oswald", sans-serif;
 }
-
+.dd {
+  font-size: 5px;
+}
 .down-btn {
   font-size: 8rem;
   color: #ddd;
@@ -282,12 +284,61 @@ body {
 }
 
 .nav-bar {
+  overflow: hidden;
   position: relative;
   height: 70vh;
   width: 100%;
   background-color: rgba(20, 119, 206, 0);
 }
-
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4e41418f;
+  padding-top: 0.5rem;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#drop {
+  color: rgba(211, 230, 247, 0.532);
+  font-weight: 150;
+  cursor: pointer;
+}
+#drop:hover {
+  color: rgb(254, 254, 254);
+  font-weight: normal;
+}
+/* #flex {
+  display: flex;
+  justify-content: space-between;
+} */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+#drop:link {
+  /* color: #000; */
+  /* cursor: pointer; */
+  font-size: 3px;
+}
 .nav-right {
   border-radius: 12px;
   right: 0;
@@ -563,7 +614,8 @@ input {
   background-color: #615f5b36;
   z-index: 1000;
   font-weight: 800;
-  color: aliceblue;
+  color: rgb(129, 132, 135);
+  margin-right: 2px;
 }
 
 @media only screen and (max-width: 950px) {
@@ -573,6 +625,9 @@ input {
   }
   .nav-right a:link {
     letter-spacing: -2px;
+  }
+  #drop {
+    display: none;
   }
   .about img {
     width: auto;
