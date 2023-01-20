@@ -10,7 +10,7 @@ document.querySelectorAll(".nav-link-scroll").forEach(function (el) {
 const about = document.querySelector(".about");
 const initalCoords = about.getBoundingClientRect();
 const nav = document.querySelector(".nav-right");
-console.log(nav);
+// console.log(nav);
 window.addEventListener("scroll", function () {
   if (window.scrollY > initalCoords.top - 100) nav.classList.add("sticky");
   else nav.classList.remove("sticky");

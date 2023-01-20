@@ -289,9 +289,10 @@ body {
 }
 
 .nav-right {
+  border-radius: 12px;
   right: 0;
   list-style-type: none;
-  padding-top: 1rem;
+  padding-top: 1.3rem;
   font-size: 2rem;
   font-weight: 400;
   color: #ddd;
@@ -301,14 +302,7 @@ body {
   float: right;
   display: flex;
   justify-content: space-around;
-}
-
-.nav-right a:hover,
-.nav-right a:active {
-  /* margin: 1rem; */
-  /* transform: scale(1.6); */
-  /* box-shadow: inset 0 0 0 3px rgb(255, 255, 255); */
-  border-bottom: 2px solid white;
+  transition: all 1s;
 }
 
 .nav-right a:link,
@@ -318,8 +312,17 @@ body {
   letter-spacing: -1px;
   text-decoration: none;
   font-weight: 300;
-  color: rgba(253, 253, 253, 0.585);
+  color: rgba(253, 253, 253, 0.543);
   transition: all 0.3s;
+}
+.nav-right a:hover,
+.nav-right a:active {
+  /* margin: 1rem; */
+  /* transform: scale(1.6); */
+  /* box-shadow: inset 0 0 0 3px rgb(255, 255, 255); */
+  border-bottom: 2px solid white;
+  /* font-weight: 500; */
+  color: rgb(255, 255, 255);
 }
 
 .about {
@@ -610,6 +613,9 @@ input {
     font-size: 2.4rem;
     /* font-weight: 400; */
     /* color: rgb(220, 216, 216); */
+  }
+  .form {
+    transform: translate(-2%, -0.5%);
   }
   .formgroup {
     font-size: 1.5rem;
